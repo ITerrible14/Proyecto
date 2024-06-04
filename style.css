@@ -1,0 +1,70 @@
+.form{
+    color: #000000;
+    font-family: "Times New Roman", serif;
+    font-size: 13px 120%;
+    margin: 0.5em 0 1em;
+    padding: 0.5em;
+    background-color: #e4eecb;
+    }
+h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 400%;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+body{
+    background-color: #bad8ef;
+}
+
+legend{
+    text-transform: uppercase;
+    font-size: 150%;
+}
+    
+
+#proyectos {
+      width: 10%; /* Ancho del campo de texto */
+      height: 10px; /* Altura del campo de texto */
+      resize: vertical; /* Permite redimensionar verticalmente el campo de texto */
+    }
+
+    
+
+#menu ul {
+    list-style-type: none;/*desactiva viñetas*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Especifica qué sucede si el contenido
+    del cuadro de un elemento se desborda */
+    background-color: #53ddff;
+}
+
+#menu  li {
+    float: left;
+}
+
+#menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+    background-color: #f1d517;
+    color:#333;
+
+}
+
+#menu li a:active { /*Cuando da click en el mouse */
+    filter:brightness(75%);
+    font-size: 120%;
+}
+
+#menu li:last-child{
+float: right;
+color:white;
+}

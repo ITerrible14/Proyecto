@@ -1,0 +1,100 @@
+/*Reglas b ásicas CSS con las que comenzar
+body {
+text-align: center;
+}
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+}
+#titulo {
+font: bold 36px verdana, sans-serif;
+}*/
+
+/* Generando esquinas redondeadas.
+body {
+text-align: center;
+}
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
+#titulo {
+font: bold 36px verdana, sans-serif;
+}
+*/
+
+/*Diferentes valores para cada esquina
+body {
+text-align: center;
+}
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+}
+#titulo {
+font: bold 36px verdana, sans-serif;
+}
+*/
+
+/*Esquinas elípticas
+body {
+text-align: center;
+}
+#principal { display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-border-radius: 20px / 10px;
+-webkit-border-radius: 20px / 10px;
+border-radius: 20px / 10px;
+}
+ #titulo {
+font: bold 36px verdana, sans-serif;
+}
+*/
+/*Aplicando somb ra a nuestra caja.*/
+body {
+text-align: center;
+}
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 1px solid #999999;
+background: #DDDDDD;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;
+border-radius: 20px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow: rgb(150,150,150) 5px 5px;
+}
+#titulo {
+font: bold 36px verdana, sans-serif;
+}

@@ -1,0 +1,67 @@
+
+  * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+    body {
+      text-align: center;
+    }
+
+    .contenedor,.cajaBase,#caja1,#caja2,#caja3{
+    display: block;
+    }
+
+  .contenedor{
+      width: 960px ;
+      height: 600px ;
+      margin: 20px auto;
+      border: 3px solid hsl(0, 100%, 50%);
+    }
+
+  .cajaBase{
+    margin: 30px;
+    padding: 5px;
+    width: 200px ;
+    height: 300px ;
+    border: 3px solid #0000ff;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    display:inline-block;
+    background-image: url("../img/callCenter.png");
+    }
+
+    #caja1 {
+    /*  margin: 30px;
+      padding: 5px;
+      width: 200px ;
+      height: 300px ;
+      border: 3px solid rgb(255, 99, 71) ;
+      background-repeat: no-repeat;
+      background-size: 40px;*/
+      float:left;
+      background-position: bottom left;
+     }
+
+    #caja2 {
+      margin:30px 90px;
+    /*  padding: 5px;
+      width: 200px;
+      height: 300px ;
+      border: 3px solid rgb(255, 99, 71);
+      background-repeat: no-repeat;
+      background-size: 40px;*/
+      float:left;
+      background-position: right top; }
+
+    #caja3 {
+    /*  margin: 30px;
+      padding: 5px;
+      width: 200px;
+      height: 300px ;
+      border: 3px solid rgb(255, 99, 71);
+      background-repeat: no-repeat;
+      background-size: 40px;*/
+      float:right;
+      background-position: 50% 50%;
+    }
